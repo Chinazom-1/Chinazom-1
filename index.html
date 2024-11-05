@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="INstyle.css">
+        <link rel="icon" href="images/wifi-protection-for-gadget-disposal-featured.jpg">
+        <title>Linx</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="hi">Chinazom Francis</div>
+                <div class="others">
+                    <a href="#" onclick="prompt('What is your name?')">Home</a>
+                    <a href="#" onclick="alert('How about yourself, you stink!')">About</a>
+                    <a href="#" onclick="alert('Go Service yourself')">Services</a>
+                    <a href="mailto:chinazom.ugwuanyi@gmail.com" onclick="alert('Your Email would be opened shortly')">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="container">
+                <p id="thep"><b>Enter Login Credentials</b></p>
+                <form action="submit.html">
+                    <div>
+                        <label for="loginE">Email</label><br>
+                        <input type="email" name="email" id="loginE" placeholder="someone@example.co" required autocomplete="email">
+                    </div>
+                     <br>                     
+                    <div>
+                        <label for="loginP">Password</label><br>
+                        <input type="password" name="password" id="loginP" placeholder="password" required>
+                    </div>
+                    <button type="submit" onclick="showPopup()" class="button">Login</button>
+                </form>
+            </div>
+        </main>
+        
+        <footer>
+            <a href="vid-w.html" target="_blank" rel="noopener noreferrer" onclick="alert('Opening New Page'), prompt('First, may we have your name please?')">Designed by<p class="hi">Chinazom</p></a>
+            <span class="vid">
+                <a onclick="prompt('What is your name?')" href="vid-w.html" target="_blank">Wanna watch a Video instead?, Click <u>here</u>
+                </a>
+            </span>
+            <div class="copyright">
+                &copy; 2024 Zomzom Inc. 
+            </div>
+        </footer>
+        <script src="./script.js"></script>
+    </body>
+</html>
